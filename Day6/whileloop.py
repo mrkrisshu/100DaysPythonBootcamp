@@ -1,2 +1,4 @@
-while 5 > 3:
-    print(5 > 3)
+i = 1
+while i <= 500:
+    print(i)
+    i += 5
