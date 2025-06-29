@@ -1,3 +1,5 @@
+#Hangman by Krishna Practise
+
 import random
 
 stages = [
