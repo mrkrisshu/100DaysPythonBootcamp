@@ -1,76 +1,13 @@
 #Hangman by Krishna Practise
 
 import random
-
-stages = [
-    '''
-      +---+
-      |   |
-      O   |
-     /|\\  |
-     / \\  |
-          |
-    =========
-    ''',
-    '''
-      +---+
-      |   |
-      O   |
-     /|\\  |
-     /    |
-          |
-    =========
-    ''',
-    '''
-      +---+
-      |   |
-      O   |
-     /|\\  |
-          |
-          |
-    =========
-    ''',
-    '''
-      +---+
-      |   |
-      O   |
-     /|   |
-          |
-          |
-    =========
-    ''',
-    '''
-      +---+
-      |   |
-      O   |
-      |   |
-          |
-          |
-    =========
-    ''',
-    '''
-      +---+
-      |   |
-      O   |
-          |
-          |
-          |
-    =========
-    ''',
-    '''
-      +---+
-      |   |
-          |
-          |
-          |
-          |
-    =========
-    '''
-]
-
-word_list = ["aardvark", "baboon", "camel"]
+from  hangman_words import word_list
+from hangman_art import stages
+from hangman_art import logo
 
 lives = 6
+
+print(logo)
 
 chosen_word = random.choice(word_list)
 print(chosen_word)
@@ -92,7 +29,8 @@ while not game_over:
 
     guess = input("Guess a Letter: ").lower()
 
-
+    if guess in correct_letters:
+        print(f"You have already Guessed {guess}")
     display = ""
 
     for letter in chosen_word:

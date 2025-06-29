@@ -1,0 +1,22 @@
+word_list = [
+    "apple", "banana", "grape", "orange", "strawberry",
+    "pineapple", "mango", "papaya", "blueberry", "watermelon",
+    "kiwi", "peach", "pear", "plum", "cherry",
+    "apricot", "fig", "date", "coconut", "avocado",
+    "broccoli", "carrot", "cucumber", "lettuce", "spinach",
+    "pumpkin", "tomato", "potato", "onion", "garlic",
+    "ginger", "pepper", "celery", "beet", "radish",
+    "turnip", "zucchini", "squash", "cabbage", "cauliflower",
+    "artichoke", "asparagus", "brussels", "parsley", "basil",
+    "oregano", "thyme", "rosemary", "sage", "coriander",
+    "lavender", "vanilla", "cinnamon", "nutmeg", "cloves",
+    "saffron", "paprika", "turmeric", "sesame", "peanut",
+    "almond", "walnut", "pistachio", "cashew", "hazelnut",
+    "pecan", "macadamia", "chestnut", "coffee", "cocoa",
+    "sugar", "honey", "butter", "cheese", "yogurt",
+    "cream", "bread", "bagel", "biscuit", "brownie",
+    "cupcake", "cookie", "doughnut", "pancake", "waffle",
+    "omelette", "sausage", "bacon", "hamburger", "sandwich",
+    "pizza", "lasagna", "spaghetti", "noodles", "sushi",
+    "taco", "burrito", "quesadilla", "curry", "ramen"
+]
