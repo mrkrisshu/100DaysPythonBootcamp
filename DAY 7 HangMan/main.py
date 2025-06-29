@@ -26,7 +26,7 @@ correct_letters = []
 
 while not game_over:
 
-
+    print(f"***************{lives}/6 ****************")
     guess = input("Guess a Letter: ").lower()
 
     if guess in correct_letters:
@@ -46,9 +46,10 @@ while not game_over:
 
     if guess not in chosen_word:
         lives -= 1
+        print(f"You guessed {guess}, thats not in the word.you lose a life")
         if lives == 0:
             game_over = True
-            print("You lose")
+            print(f"************IT WAS {chosen_word}   **You Lose****************")
 
 
 
